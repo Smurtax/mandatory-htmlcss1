@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title></title>
+  </head>
+  <body>
+
+    <header>
+      <h1>Index page</h1>
+      <nav class="navbar">
+          <a href="index.html" class="active">Index</a>
+          <a href="movies.html">Movies</a>
+          <a href="links.html">Links</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="middle">
+
+      <form class="form" action="index.html" method="post">
+
+        <div class="name">
+          <label for="name">Namn: </label><br>
+          <input id="name" type="text" name="name" value="Enter your name" required>
+        </div>
+
+        <div class="email">
+          <label for="email">Email: </label><br>
+          <input id="email" type="email" name="email" value="Enter your email" required>
+        </div>
+
+        <div class="select">
+          <label for="sex">Kön: </label><br>
+          <select id="sex" class="selection" name="select" required>
+            <option value="man">Man</option>
+            <option value="kvinna">Kvinna</option>
+          </select>
+        </div>
+
+        <div class="textarea">
+            <label for="textarea">Meddelande</label><br>
+            <textarea id="textarea" type="text" name="textarea" placeholder="Message" required></textarea>
+        </div>
+
+          <input type="submit" name="send" value="Skicka">
+        </div>
+
+      </form>
+    </main>
+
+    <footer class="footer">
+
+      <div class="about">
+        <h3>Om oss</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliq.</p>
+      </div>
+
+      <ul class="footer-links">
+        <h3>Links</h3>
+        <li>
+          <a href="index.html">Index</a>
+        </li>
+        <li>
+          <a href="movies.html">Movies</a>
+        </li>
+        <li>
+          <a href="links.html">Links</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+      <address class="adress">
+        <h3>Besök oss på</h3>
+        Webvägen 23
+        302 76 Htmlcss
+      </address>
+
+
+    </footer>
+
+  </body>
+</html>

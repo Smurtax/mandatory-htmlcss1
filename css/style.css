@@ -1,0 +1,101 @@
+* {
+  margin: 0 auto;
+}
+
+
+header {
+  background-color: black;
+  width: 100vw;
+}
+
+.middle {
+  width: 60vw;
+  padding: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.email, .name, .textarea, .select {
+  padding: 5px;
+  width: 150px;
+}
+
+.list {
+  margin-left: 30%;
+}
+.middle h1 {
+  margin-bottom: 20px;
+}
+header h1 {
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+.navbar {
+  display: flex;
+  width: 30vw;
+  justify-content: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+}
+
+
+.footer {
+  margin: 0 auto;
+  background-color: grey;
+  color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about {
+  width: 25%;
+}
+
+
+.footer-links li a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-links li {
+  list-style-type: none;
+}
+
+.footer h3{
+  margin-bottom: 10px;
+}
+
+.middle img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.middle h1 {
+  text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td, thead{
+    border: 1px solid black;
+    padding: 15px;
+    text-align: left;
+    border-spacing: 10px;
+}
+
+th, td {
+  margin: 20px;
+}
